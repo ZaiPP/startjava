@@ -21,5 +21,18 @@ public class VariableTheme {
         System.out.println(speedup);
         System.out.println(simbol);
         System.out.println(result);
+
+
+        //TODO: Расчет стоимости товара со скидкой
+
+        String s = "";
+        int X = 100;
+        int Y = 200;
+        int sum = X + Y;
+
+        System.out.println(s);
+        System.out.println("Расчет стоимости товара со скидкой");
+        System.out.println(sum - sum * 0.10);
+        System.out.println(sum * 0.10);
     }
 }
